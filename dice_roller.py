@@ -12,7 +12,7 @@ for _ in range(number_of_rolls):
     rolls.append(random.randint(1, d_type))
 #joins the rolls into a printable string
 for i in rolls:
-    rolls_string += ', '.join(str(i)) + ' '
+    rolls_string += ''.join(str(i)) + ' '
 #prints the sum total of the rolls followed by each individual roll
-print(f"You rolled {sum(rolls)}: {rolls_string}")
+print(f"You rolled {rolls},{sum(rolls)}: {rolls_string}")
     
