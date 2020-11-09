@@ -8,13 +8,11 @@ def main():
 
         rolls = []
         rolls_string = ''
-
         input_string = input("What do you want to roll?: ")  
 
         if input_string == 'quit' or input_string == 'Quit':
             continuing = False
         else:
-
             #try blocks to see if input formatted correctly
             try:
                 split_string = input_string.split("d")
